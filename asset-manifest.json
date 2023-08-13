@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/square/static/css/main.125a8185.css",
+    "main.js": "/square/static/js/main.4ce9aa30.js",
+    "static/media/popular-1.gif": "/square/static/media/popular-1.0fe8f8f5023f43cf6d4c.gif",
+    "static/media/popular-2.webp": "/square/static/media/popular-2.af854f4a08f74901a5f4.webp",
+    "static/media/gallery-6.jpg": "/square/static/media/gallery-6.42f0abd1eaaf108ffd53.jpg",
+    "static/media/Travelling-bg.jpg": "/square/static/media/Travelling-bg.16ba10d0961e471a8749.jpg",
+    "static/media/about.jpg": "/square/static/media/about.1462623ba6b0845e2876.jpg",
+    "static/media/gallery-2.jpg": "/square/static/media/gallery-2.8cb97f9b666a262b0f70.jpg",
+    "static/media/card-2.jpg": "/square/static/media/card-2.466a4d95485d0f427ba0.jpg",
+    "static/media/gallery-3.jpg": "/square/static/media/gallery-3.7d31fe2bc7444039da6d.jpg",
+    "static/media/air-ballon.jpg": "/square/static/media/air-ballon.b7a101e00dee079a699a.jpg",
+    "static/media/gallery-5.jpg": "/square/static/media/gallery-5.649e4bfeeba48a924fc5.jpg",
+    "static/media/people-1.jpg": "/square/static/media/people-1.153f95dd15713280899e.jpg",
+    "static/media/gallery-4.jpg": "/square/static/media/gallery-4.c05404e220d7a815db9e.jpg",
+    "static/media/card-4.jpeg": "/square/static/media/card-4.39bcbb4cfbf178cc0f4c.jpeg",
+    "static/media/popular-3.jpg": "/square/static/media/popular-3.7685c7070b6048284d8f.jpg",
+    "static/media/people-2.jpg": "/square/static/media/people-2.13fbf42fb3b106840cde.jpg",
+    "static/media/card-4.jpg": "/square/static/media/card-4.347ed7835924a76522ba.jpg",
+    "static/media/footer-img.webp": "/square/static/media/footer-img.3ed71d7a3bf56e3db6c3.webp",
+    "static/media/people-3.jpg": "/square/static/media/people-3.9deff274dbe45ea770cf.jpg",
+    "static/media/card-1.jpg": "/square/static/media/card-1.0ad4ef5c2b56b5a42b1b.jpg",
+    "static/media/logo.jpg": "/square/static/media/logo.c00b86594b7817999bce.jpg",
+    "static/media/gallery-1.webp": "/square/static/media/gallery-1.2dca3d1de1a21d5e8f44.webp",
+    "static/media/place-3.jpeg": "/square/static/media/place-3.09acebba5f8d6596a1bb.jpeg",
+    "static/media/place-2.jpeg": "/square/static/media/place-2.08c91aeece9e3b1b76d2.jpeg",
+    "index.html": "/square/index.html",
+    "main.125a8185.css.map": "/square/static/css/main.125a8185.css.map",
+    "main.4ce9aa30.js.map": "/square/static/js/main.4ce9aa30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.125a8185.css",
+    "static/js/main.4ce9aa30.js"
+  ]
+}
