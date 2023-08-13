@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&family=Paytone+One&family=Roboto&display=swap');
+
+/* Change the color of the track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Change the color of the thumb (scroll bar) */
+::-webkit-scrollbar-thumb {
+  background-color: teal;
+  border-radius: 5px;
+}
+
+/* Change the color of the track on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: darkcyan;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+}
+
+.brand-name {
+  color: teal;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.nav-icon{
+    color:teal;
+}
+
+.home-image{
+    width:100%;
+    max-height: 50vh;
+}
+
+.home-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+   
+  }
+    
+  .home-text-container {
+    
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+  }
+.booking-btn{
+    background-color: #19A7CE;
+    border: none;
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+}
+.image-container {
+    width:100%;
+    position:relative;
+    bottom: 90px;
+    
+  }
+  
+  .custom-card {
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    border: none; /* Remove the default border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add box shadow */
+  }
+  
+  .card-image {
+    
+    height: 300px; /* Set the image height */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  
+  
+  .arrow-icon{
+    background-color:teal;
+    height: 35px;
+    width:35px;
+    border-radius: 17px;
+    right: -16px;
+    top:20px;
+  }
+ /* Services.css */
+.service.card {
+  transition: background-color 0.3s ease-in-out; 
+  /* Add a smooth transition */
+}
+
+.service.card:hover {
+  background-color:teal;
+  color:white;
+  transform: translateY(-10px);
+   /* Change to the desired background color on hover */
+}
+
+.arrow-icon {
+   /* Hide the arrow icon by default */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.service.card:hover .arrow-icon {
+  
+  opacity: 1; /* Show the arrow icon on card hover */
+}
+
+  .arrow-right{
+    color:white;
+    margin: 10px;
+  }
+
+  .service-card{
+    height:200px;
+  }
+
+  .about-container{
+    background-color: teal;
+    padding:20px;
+  }
+  .about-title{
+    font-size: 2.8rem;
+  }
+  .about-para{
+    font-size: 19px;
+    margin-bottom:50px;
+  }
+  .about-image{
+    width: 100%;
+  }
+
+  .time{
+    position: relative;
+    top:-320px;
+    left:20px;
+  }
+  .pcards{
+    height:350px;
+  }
+  .people{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+  }
+  .contact-form{
+    background-color: teal;
+    color:white;
+  }
+  .footer-container {
+    position: relative;
+  }
+  .footer-image {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+  
+  .footer-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  }
+  
+  .footer-items > li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  
+  .footer-text-content {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 18px;
+   
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .social-icons {
+    margin: 20px;
+  }
+  
+  .footer-bottom {
+    padding: 10px;
+    position: absolute;
+    left:0px;
+    right:0px;
+    text-align: center;
+    background-color: teal;
+  }
+  
+ .service-heading , .package-heading , .gallery-heading ,.review-heading ,.contact-heading{
+  color:teal;
+  font-weight: 800;
+  
+ }
+ .custom-hr {
+  border: none;
+  height: 8px; /* Set the desired depth */
+  background-color:teal; /* Set the desired color */
+  margin: 10px auto;
+  width:50px; 
+
+  border-radius: 5px;
+  /* Add margin to center the hr within the div */
+}
+.card {
+ /* Add padding to create space between content and shadow */
+  border: none; /* Remove the default border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add box shadow */
+}
+
+  @media (max-width:576px) {
+    .image-container {
+        position:relative;
+        bottom:50px;  
+      }
+      .home-image{
+        height: 60vh;
+      }
+      
+    .image-2,.image-3{
+        display: none;
+    }
+    .about-image{
+        display: none;
+    }
+  }
+  @media (max-width:1200px) {
+     .cards{
+        height:300px;
+     }
+    }
+     @media (min-width:1200px) {
+       .about-image{
+        width:50%;
+       }
+      .about-content{
+        padding:100px;
+      }
+     }
+     @media (min-width:992px) {
+       .Gallery-4,.Gallery-6{
+        position: relative;
+        bottom: 250px;
+       }
+       
+     }
+     @media (max-width:992px) {
+      .contact-image{
+        display: none;
+      }
+      
+    }
+    @media (max-width:576px) {
+      .footer-image{
+          height:70vh;
+      }
+      
+    }
+   
